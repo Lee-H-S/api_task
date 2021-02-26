@@ -1,0 +1,17 @@
+[
+    {
+      "model": "api.accounttype",
+      "pk": 1,
+      "fields": {
+        "name": "Player"
+      }
+    },
+    {
+      "model": "api.accounttype",
+      "pk": 2,
+      "fields": {
+        "name": "Publisher"
+      }
+    }
+  ]
+  
