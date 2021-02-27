@@ -63,6 +63,6 @@ It's designed such that:
 - We can manage permissions using the `account_type` field in the `user` table.
 - Games (to be created by studio users) will always belong to a Studio.
 - Subscriptions consist of both a Player and a Game (which can be created and updated).
-- The structure is based a basic entity-relationship model and is easy to implement.
+- The structure is a basic entity-relationship model and is easy to implement.
 - Whether or not an account/subscription is active is determined by the `active_flag`.
 - The keys are protected downstream on delete, which should allow us to preserve relationships for reporting purposes. 
