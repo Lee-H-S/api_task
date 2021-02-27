@@ -24,11 +24,9 @@ docker-compose up
 #### Purpose
 
 The idea behind this project is that this Account Management System should be able to:
-- Register new users (players)
-- Players can close their accounts
+- Register new users (and close the accounts of existing ones)
 - Create new games (to which players can subscribe)
-- Create new subscriptions
-- Players can cancel subscriptions
+- Create new subscriptions (and cancel existing ones)
 - Restrict access to information, such that:
     - Players cannot see back-end reports.
     - Studios can see the popularity of their own games, but nobody elses.
