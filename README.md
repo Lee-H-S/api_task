@@ -13,13 +13,13 @@ The tools used in this repository:
 In order to start the project:
 
 - Clone this Git repo locally
-- Run the following command in command-line:
+- Run the following in command-line:
 
 ```
 docker-compose up
 ```
 
-- The APIs will then be available at on your docker hosts default IP on port 8000.
+- The app will then be available on your docker host's default IP on port 8000.
 
 #### Purpose
 
@@ -40,8 +40,8 @@ This project is incomplete (and very much at the beginning of its development cy
 ###### Current features:
 - Create a user (/users/create)
 - Authenticate users (/users/token)
-- Create a new game (api/games/)
-- Retrieve all games (api/games/)
+- Create a new game (/api/games - POST)
+- Retrieve all games (/api/games - GET)
 - Persistent Storage (volumes)
 - Containerised Application & Database
 
