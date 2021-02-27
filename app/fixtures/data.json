@@ -1,16 +1,16 @@
 [
     {
-      "model": "api.accounttype",
+      "model": "core.accounttype",
       "pk": 1,
       "fields": {
         "name": "Player"
       }
     },
     {
-      "model": "api.accounttype",
+      "model": "core.accounttype",
       "pk": 2,
       "fields": {
-        "name": "Publisher"
+        "name": "Studio"
       }
     }
   ]
