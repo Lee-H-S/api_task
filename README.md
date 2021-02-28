@@ -47,7 +47,7 @@ This project is incomplete (and very much at the beginning of its development cy
 - Restrictions on who can create games (i.e, studios would be the ones who can release games to the platform - this would be determined by `account_type`).
 - Functionality to add/alter subscriptions (Adding subscriptions would be allowed by Players, altering by both Studios and Players).
 - CI/CD Deployment Pipeline
-- Consideration of scaling (using Docker Swarm/K8s, or their cloud counterparts (ECS/EKS)).
+- Consideration of scaling (using Docker Swarm/K8s, or their cloud counterparts (ECS/EKS) - as well as having a more performant intermediary database such as Redis/ElasticSearch, so that the app doesn't have to access the OLTP database for absolutely everything and can utilise caching).
 - Productionisation considerations (for example, not having the `secret_key` explicitly in the `settings.py` file).
 
 ###### Data Model
